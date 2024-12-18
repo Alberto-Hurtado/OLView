@@ -1,0 +1,34 @@
+CTRLav0 - Source: controller acq | Sampling: record average | Elaboration: measured
+
+CTRLav1 - Source: CTRLav0 | Sampling: record average | Elaboration: derived
+
+STDav0 - Source: standard acq | Sampling: record average | Elaboration: measured
+
+STDav1 - Source: STDav0 | Sampling: record average | Elaboration: derived
+
+PHYSav0 - Source: physical DoFs | Sampling: record average | Elaboration: equation
+
+PHYSav1 - Source: PHYSav0 | Sampling: record average | Elaboration: derived
+
+HYBRreIDEN - Source: hybrid system | Sampling: resampled | Elaboration: identified
+
+
+---------Source
+CTRL: controller acq 
+STD: standard acq 
+PHYS: physical DoFs
+HYBR: hybrid system
+
+---------Sampling
+av: record average 
+ins: instantaneous
+con: constant average
+re: resampled
+
+---------Elaboration
+0: measured (or controller computed)
+1: derived by posttreatment
+IDEN: identified by posttreatment
+
+
+
